@@ -1,7 +1,7 @@
 # Swedavia API - CORS Demo
 
 ## Context and CORS
-This demo displays today's flight departures for Stockholm Arlanda Airport (ARN) by fetching data from the the [Swedavia API](https://apideveloper.swedavia.se/). The API has great data, but lacks headers to allow [Cross Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS). As such we cannot call it directly from frontend JavaScript. We therefore use NodeJS [Express](https://expressjs.com) server as a relay to call the Swedavia API on behalf of the frontend. 
+This demo displays today's flight departures for Stockholm Arlanda Airport (ARN) by fetching data from the the [Swedavia API](https://apideveloper.swedavia.se/). The API has great data, but lacks headers to allow [Cross Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS). As such we cannot call it directly from frontend JavaScript. We therefore use NodeJS [Express](https://expressjs.com) server as a relay to call the Swedavia API on behalf of the frontend. You can [read more about CORS on this FigJam](https://www.figma.com/board/y67IupAudMyeBCjnXwIema/Cross-Origin-Resource-Sharing).
 
 ## API KEY and Environment Variables
 To get your API Key, you'll need to [Sign Up with Swedavia Airports](https://apideveloper.swedavia.se/). Then, use Environment Variables to safely store API Keys. You could place something like the following in a `.env` file while working locally. This file will be loaded when you run `npm start`. If deploying to the web, (e.g. to [Vercel](https://vercel.com/)) you'll need to configure the Environment Variables as part of your project settings. 
