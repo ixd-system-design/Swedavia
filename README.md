@@ -10,7 +10,7 @@ API_KEY=a1b2c3d4e5f6g7h8*****
 ```
 
 ## Local Development
- You will need [NodeJS](https://nodejs.org) to work on this project; Install it first if you haven't already. This is a template repo; you can make your own repository via the `Use template` button in GitHub. Once you have your own repo, clone it to your local machine in VSCode. Then, open the terminal and run: `npm install`. This will install dependencies including Express. Then create a `.env` file using `.env.example` as a model. Populate it with your actual API key from Swedavia. Finally, run the app with the following terminal command: `npm run start`.
+ You will need [NodeJS](https://nodejs.org) to work on this project; Install it first if you haven't already. This is a template repo; you can make your own repository via the `Use this template` button in GitHub. Once you have your own repo, clone it to your local machine in VSCode. Then, open the terminal and run: `npm install`. This will install dependencies including Express. Then create a `.env` file using `.env.example` as a model. Populate it with your actual API key from Swedavia. Finally, run the app with the following terminal command: `npm run start`.
 
 ## Vercel
 This project uses the [Express](https://expressjs.com) framework in a manner [supported by Vercel](https://vercel.com/docs/frameworks/backend/express). You can host an Express app for free as a [Vercel Function](https://vercel.com/docs/functions) a on a [Hobby Plan](https://vercel.com/docs/plans/hobby).
