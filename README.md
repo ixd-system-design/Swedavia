@@ -1,6 +1,6 @@
 # Swedavia API - CORS Demo
 
-## Context
+## Context and CORS
 This demo displays today's flight departures for Stockholm Arlanda Airport (ARN) by fetching data from the the [Swedavia API](https://apideveloper.swedavia.se/). The API has great data, but lacks headers to allow [Cross Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS). As such we cannot call it directly from frontend JavaScript. We therefore use NodeJS [Express](https://expressjs.com) server as a relay to call the Swedavia API. 
 
 ## API KEY and Environment Variables
