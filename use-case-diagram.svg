@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 600">
+  <!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 14px;
+      }
+
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st0, .st2 {
+        font-family: ArialMT, 'Arial MT';
+      }
+
+      .st3, .st4, .st5, .st6 {
+        fill: none;
+      }
+
+      .st3, .st5, .st6, .st7 {
+        stroke: #333;
+      }
+
+      .st1 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .st5 {
+        stroke-dasharray: 5 5;
+      }
+
+      .st6 {
+        stroke-width: 2px;
+      }
+
+      .st2 {
+        font-size: 12px;
+      }
+
+      .st8 {
+        fill: #333;
+      }
+
+      .st7 {
+        fill: #e6f3ff;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <text class="st1" transform="translate(187 30)"><tspan x="0" y="0">Swedavia Flight Departures System - UML Use Case Diagram</tspan></text>
+  <rect class="st6" x="150" y="80" width="500" height="450" rx="10" ry="10"/>
+  <text class="st1" transform="translate(254.6 100)"><tspan x="0" y="0">Swedavia Departures Web Application</tspan></text>
+  <g id="user-actor">
+    <circle class="st6" cx="80" cy="150" r="15"/>
+    <line class="st6" x1="80" y1="165" x2="80" y2="220"/>
+    <line class="st6" x1="60" y1="185" x2="100" y2="185"/>
+    <line class="st6" x1="80" y1="220" x2="65" y2="250"/>
+    <line class="st6" x1="80" y1="220" x2="95" y2="250"/>
+    <text class="st0" transform="translate(65.2 270)"><tspan x="0" y="0">User</tspan></text>
+  </g>
+  <g id="api-actor">
+    <circle class="st6" cx="724.1" cy="365" r="15"/>
+    <line class="st6" x1="724.1" y1="380" x2="724.1" y2="435"/>
+    <line class="st6" x1="704.1" y1="400" x2="744.1" y2="400"/>
+    <line class="st6" x1="724.1" y1="435" x2="709.1" y2="465"/>
+    <line class="st6" x1="724.1" y1="435" x2="739.1" y2="465"/>
+    <text class="st0" transform="translate(680.9 485)"><tspan x="0" y="0">Swedavia API</tspan></text>
+  </g>
+  <ellipse class="st7" cx="400" cy="220" rx="85" ry="25"/>
+  <text class="st2" transform="translate(376.5 215)"><tspan x="0" y="0">List ARN</tspan></text>
+  <text class="st2" transform="translate(370 228)"><tspan x="0" y="0">Departures</tspan></text>
+  <ellipse class="st7" cx="260" cy="320" rx="85" ry="25"/>
+  <text class="st2" transform="translate(230.8 315)"><tspan x="0" y="0">View Flight</tspan></text>
+  <text class="st2" transform="translate(241.7 328)"><tspan x="0" y="0">Details</tspan></text>
+  <ellipse class="st7" cx="540" cy="320" rx="85" ry="25"/>
+  <text class="st2" transform="translate(506.7 315)"><tspan x="0" y="0">Check Flight</tspan></text>
+  <text class="st2" transform="translate(522.9 328)"><tspan x="0" y="0">Status</tspan></text>
+  <ellipse class="st7" cx="400" cy="420" rx="85" ry="25"/>
+  <text class="st2" transform="translate(369 415)"><tspan x="0" y="0">Fetch Flight</tspan></text>
+  <text class="st2" transform="translate(387.2 428)"><tspan x="0" y="0">Data</tspan></text>
+  <line class="st3" x1="100" y1="200" x2="315" y2="220"/>
+  <g>
+    <line class="st5" x1="324.8" y1="299" x2="356.5" y2="256.2"/>
+    <path class="st8" d="M360.1,251.3c-.8,2.9-1.5,6.8-1.3,9.7l-2.8-4.2-4.8-1.4c2.8-.6,6.4-2.4,8.9-4Z"/>
+  </g>
+  <g>
+    <line class="st5" x1="481.7" y1="295" x2="449.3" y2="251.5"/>
+    <path class="st8" d="M445.7,246.6c2.5,1.6,6.1,3.4,8.9,4l-4.8,1.5-2.8,4.2c.2-2.9-.4-6.8-1.3-9.7Z"/>
+  </g>
+  <g>
+    <line class="st5" x1="403.5" y1="248.5" x2="405" y2="381.9"/>
+    <path class="st8" d="M405.1,387.9c-1.1-2.8-2.9-6.3-4.8-8.5l4.8,1.7,4.7-1.8c-1.9,2.2-3.6,5.7-4.7,8.6Z"/>
+  </g>
+  <line class="st3" x1="485" y1="420" x2="705" y2="420"/>
+  <path class="st4" d=""/>
+  <path class="st3" d="M400,395" marker-end="url(#open-arrow)"/>
+  <text class="st2" transform="translate(348.5 362)"><tspan x="0" y="0">«include»</tspan></text>
+  <path class="st4" d=""/>
+  <path class="st3" d="M365,245" marker-end="url(#open-arrow)"/>
+  <text class="st2" transform="translate(265.5 270)"><tspan x="0" y="0">«extend»</tspan></text>
+  <path class="st4" d=""/>
+  <path class="st3" d="M435,245" marker-end="url(#open-arrow)"/>
+  <text class="st2" transform="translate(477.4 270.8)"><tspan x="0" y="0">«extend»</tspan></text>
+</svg>

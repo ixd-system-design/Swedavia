@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: rgba(20, 38, 56, .96);
+  font-family: sans-serif;
+}
+
+header {
+  font-family: 'SwedenSansBold';
+  background: #ffd481;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+@font-face {
+  font-family: 'SwedenSansBold';
+  src: url('SwedenSansBold.woff2') format('woff2')
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+footer {
+  padding: 2rem;
+}
+
+footer p {
+  max-width: 800px;
+  color: #666;
+  margin: 1rem auto;
+}
+
+footer img {
+  width: 200px;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Swedavia Departures</title>
+
+  <!-- Setting a viewport tag helps with mobile device layout. -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <!-- Custom Styling -->
+  <link
+    href="styles.css"
+    rel="stylesheet"
+  />
+  <script
+    defer
+    src="script.js"
+    type="module"
+  ></script>
+
+  <link
+    href="favicon.ico"
+    rel="icon"
+    type="image/x-icon"
+  >
+
+
+</head>
+
+<body>
+  <header>
+    <!-- Dynamic Header does here. -->
+  </header>
+  <main>
+    <!-- Dynamic Content goes here. -->
+  </main>
+  <footer>
+
+    <p>This is a demo page to fetch and display data from the <a href="https://apideveloper.swedavia.se/">Swedavia
+        API</a>.
+      The API has endpoints for departures and arrivals. However it lacks headers to allow <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"
+      >Cross Origin Resource Sharing (CORS)</a>. As such we cannot call it directly from
+      frontend JavaScript. We therefore use a NodeJS <a href="https://expressjs.com">Express</a> server as a relay to
+      call the Swedavia API.</p>
+    <p><span class="ideal">We use Environment Variables to safely store API Keys on the NodeJS Server. </span></p>
+
+    <p>Created by <a href="https://nsitu.ca">Harold Sikkema</a> in the context of Systems Design in the <a
+        href="https://ixd.sheridancollege.ca/program.html"
+      >Interaction Design</a> program at <a href="https://www.sheridancollege.ca/">Sheridan College.</a> Fonts
+      via <a href="https://sharingsweden.se/">Sharing Sweden</a>.
+    </p>
+
+  </footer>
+</body>
+
+</html>
