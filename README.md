@@ -1,4 +1,4 @@
-# Oxford Dictionary API Demo 
+# Swedavia API Demo
 
 ## Context
 This is a demo page to fetch and display data from the [Swedavia API](https://apideveloper.swedavia.se/). The API has endpoints for departures and arrivals. However it lacks headers to allow [Cross Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS). As such we cannot call it directly from frontend JavaScript. We therefore use a NodeJS [Express](https://expressjs.com) server as a relay to call the Swedavia API. 
